@@ -14,7 +14,7 @@ public class ExampleTest {
         WebDriver driver = new ChromeDriver();
 
         // 1. Open page
-        driver.get("file:///D:\\codes\\static\\index.html");
+        driver.get("file:///D:\\codes\\selenium-project\\index.html");
 
         // 2. Find elements
         WebElement username = driver.findElement(By.id("username"));
